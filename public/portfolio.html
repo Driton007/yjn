@@ -11,10 +11,10 @@
 
 <body>
 
-    <div class="navbar sticky top-0 flex items-center justify-around flex-wrap bg-white z-10">
+    <div class="sticky top-0 z-10 flex flex-wrap items-center justify-around bg-white navbar">
 
         <img class="w-24 h-16" src="/public/pic/meta.jpg">
-        <ul class="flex space-x-7 text-xl">
+        <ul class="flex text-xl space-x-7">
             <a class="border-b-2 border-transparent hover:border-blue-700" href="index.html">
                 <li class="active ">Home</li>
             </a>
@@ -27,7 +27,7 @@
                 <li class="">Team</li>
             </a>
 
-            <a class="border-b-2 border-black pb-2" href="portfolio.html">
+            <a class="pb-2 border-b-2 border-black" href="portfolio.html">
                 <li class="">Portfolio</li>
             </a>
         </ul>
@@ -35,27 +35,27 @@
 
 
     <div class="bg-yellow-400">
-        <h1 class="py-24 ml-12 md:ml-24 text-3xl md:text-6xl font-bold">Portfolio</h1>
+        <h1 class="py-24 ml-12 text-3xl font-bold md:ml-24 md:text-6xl">Portfolio</h1>
     </div>
 
 
 
     <div class="flex justify-center mt-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mb-32 mx-10 gap-5">
+        <div class="grid grid-cols-1 gap-5 mx-10 mb-32 md:grid-cols-2 xl:grid-cols-3">
 
 
             <a class="" href="#">
                 <div class="flex flex-col items-center pl-5">
-                    <div class="left group mr-5 shadow-xl">
+                    <div class="mr-5 shadow-xl left group">
 
-                        <img class="w-96 h-80 pb-5"
+                        <img class="w-full pb-5 h-96"
                             src="https://yjn.demlab.org/assets/images/uploads/zatvorena-makedonija-640x480.jpg" alt="">
-                        <h1 class="text-xl border-l-4 pl-2 border-yellow-400 font-bold text-blue-900 mx-4 my-5">
+                        <h1 class="pl-2 mx-4 my-5 text-xl font-bold text-blue-900 border-l-4 border-yellow-400">
                             „Затворена“ Македонија</h1>
 
                         <div class="flex justify-around my-5">
-                            <div class="data flex">
-                                <svg class="w-6 h-6 text-blue-900 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            <div class="flex data">
+                                <svg class="w-6 h-6 mr-3 text-blue-900" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -63,7 +63,7 @@
                                 <p class="text-blue-900">April 23,2020</p>
                             </div>
                             <div class="read-more">
-                                <p class="text-blue-900 font-bold">Read More</p>
+                                <p class="font-bold text-blue-900">Read More</p>
                             </div>
                         </div>
 
@@ -76,17 +76,17 @@
 
             <a class="" href="#">
                 <div class="flex flex-col items-center pl-5">
-                    <div class="left group mr-5 shadow-xl">
+                    <div class="mr-5 shadow-xl left group">
 
-                        <img class="w-96 h-80 pb-5"
+                        <img class="w-full pb-5 h-96"
                             src="https://yjn.demlab.org/assets/images/uploads/shtohet-denoncimi-i-rasteve-ne-familje.jpeg"
                             alt="">
-                        <h1 class="text-xl border-l-4 pl-2 border-yellow-400 font-bold text-blue-900 mx-4 my-5">Се
+                        <h1 class="pl-2 mx-4 my-5 text-xl font-bold text-blue-900 border-l-4 border-yellow-400">Се
                             зголемува бројот на пријавени случаи на семејно насилство</h1>
 
                         <div class="flex justify-around my-5">
-                            <div class="data flex">
-                                <svg class="w-6 h-6 text-blue-900 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            <div class="flex data">
+                                <svg class="w-6 h-6 mr-3 text-blue-900" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -94,7 +94,7 @@
                                 <p class="text-blue-900">April 23,2020</p>
                             </div>
                             <div class="read-more">
-                                <p class="text-blue-900 font-bold">Read More</p>
+                                <p class="font-bold text-blue-900">Read More</p>
                             </div>
                         </div>
 
@@ -107,17 +107,17 @@
 
             <a class="" href="#">
                 <div class="flex flex-col items-center pl-5">
-                    <div class="left group mr-5 shadow-xl">
+                    <div class="mr-5 shadow-xl left group">
 
-                        <img class="w-96 h-80 pb-5 bg-center"
+                        <img class="w-full pb-5 bg-center h-96"
                             src="https://yjn.demlab.org/assets/images/uploads/kur-je-ne-karroce-gjerat-qe-ne-maqedoni.jpg"
                             alt="">
-                        <h1 class="text-xl border-l-4 pl-2 border-yellow-400 font-bold text-blue-900 mx-4 my-5">Кога сте
+                        <h1 class="pl-2 mx-4 my-5 text-xl font-bold text-blue-900 border-l-4 border-yellow-400">Кога сте
                             во количка „работите во Македонија се луксуз, а во Германија се нормални“</h1>
 
                         <div class="flex justify-around my-5">
-                            <div class="data flex">
-                                <svg class="w-6 h-6 text-blue-900 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            <div class="flex data">
+                                <svg class="w-6 h-6 mr-3 text-blue-900" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -125,7 +125,7 @@
                                 <p class="text-blue-900">April 23,2020</p>
                             </div>
                             <div class="read-more">
-                                <p class="text-blue-900 font-bold">Read More</p>
+                                <p class="font-bold text-blue-900">Read More</p>
                             </div>
                         </div>
 
@@ -138,16 +138,16 @@
 
             <a class="" href="#">
                 <div class="flex flex-col items-center pl-5">
-                    <div class="left group mr-5 shadow-xl">
+                    <div class="mr-5 shadow-xl left group">
 
-                        <img class="w-96 h-80 pb-5 bg-center"
+                        <img class="w-full pb-5 bg-center h-96"
                             src="https://yjn.demlab.org/assets/images/uploads/valmira-berisha.jpg" alt="">
-                        <h1 class="text-xl border-l-4 pl-2 border-yellow-400 font-bold text-blue-900 mx-4 my-5">Ваљмира
+                        <h1 class="pl-2 mx-4 my-5 text-xl font-bold text-blue-900 border-l-4 border-yellow-400">Ваљмира
                             Бериша – слепа но, извонредна студентка</h1>
 
                         <div class="flex justify-around my-5">
-                            <div class="data flex">
-                                <svg class="w-6 h-6 text-blue-900 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            <div class="flex data">
+                                <svg class="w-6 h-6 mr-3 text-blue-900" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -155,7 +155,7 @@
                                 <p class="text-blue-900">April 23,2020</p>
                             </div>
                             <div class="read-more">
-                                <p class="text-blue-900 font-bold">Read More</p>
+                                <p class="font-bold text-blue-900">Read More</p>
                             </div>
                         </div>
 
@@ -168,16 +168,16 @@
 
             <a class="" href="#">
                 <div class="flex flex-col items-center pl-5">
-                    <div class="left group mr-5 shadow-xl">
+                    <div class="mr-5 shadow-xl left group">
 
-                        <img class="w-96 h-80 pb-5 bg-center"
+                        <img class="w-full pb-5 bg-center h-96"
                             src="https://yjn.demlab.org/assets/images/uploads/valmira-berisha.jpg" alt="">
-                        <h1 class="text-xl border-l-4 pl-2 border-yellow-400 font-bold text-blue-900 mx-4 my-5">Ваљмира
+                        <h1 class="pl-2 mx-4 my-5 text-xl font-bold text-blue-900 border-l-4 border-yellow-400">Ваљмира
                             Бериша – слепа но, извонредна студентка</h1>
 
                         <div class="flex justify-around my-5">
-                            <div class="data flex">
-                                <svg class="w-6 h-6 text-blue-900 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            <div class="flex data">
+                                <svg class="w-6 h-6 mr-3 text-blue-900" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -185,7 +185,7 @@
                                 <p class="text-blue-900">April 23,2020</p>
                             </div>
                             <div class="read-more">
-                                <p class="text-blue-900 font-bold">Read More</p>
+                                <p class="font-bold text-blue-900">Read More</p>
                             </div>
                         </div>
 
@@ -198,16 +198,16 @@
 
             <a class="" href="#">
                 <div class="flex flex-col items-center pl-5">
-                    <div class="left group mr-5 shadow-xl">
+                    <div class="mr-5 shadow-xl left group">
 
-                        <img class="w-96 h-80 pb-5 bg-center"
+                        <img class="w-full pb-5 h-96"
                             src="https://yjn.demlab.org/assets/images/uploads/valmira-berisha.jpg" alt="">
-                        <h1 class="text-xl border-l-4 pl-2 border-yellow-400 font-bold text-blue-900 mx-4 my-5">Ваљмира
+                        <h1 class="pl-2 mx-4 my-5 text-xl font-bold text-blue-900 border-l-4 border-yellow-400">Ваљмира
                             Бериша – слепа но, извонредна студентка</h1>
 
                         <div class="flex justify-around my-5">
-                            <div class="data flex">
-                                <svg class="w-6 h-6 text-blue-900 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            <div class="flex data">
+                                <svg class="w-6 h-6 mr-3 text-blue-900" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -215,7 +215,7 @@
                                 <p class="text-blue-900">April 23,2020</p>
                             </div>
                             <div class="read-more">
-                                <p class="text-blue-900 font-bold">Read More</p>
+                                <p class="font-bold text-blue-900">Read More</p>
                             </div>
                         </div>
 
@@ -230,9 +230,9 @@
     </div>
 
     <div class="bg-blue-800">
-        <div class="md:flex justify-center items-center py-10">
+        <div class="items-center justify-center py-10 md:flex">
 
-            <div class="flex justify-center items-center space-x-5">
+            <div class="flex items-center justify-center space-x-5">
                 <div class="left">
                     <img class="w-auto h-16" src="/public/pic/download.png" alt="">
                 </div>
@@ -242,8 +242,8 @@
             </div>
 
 
-            <div class="md:w-3/4 text-center m-5 md:ml-10">
-                <p class="text-white text-sm">This website is a product of the project “Young Journalists’ Network”
+            <div class="m-5 text-center md:w-3/4 md:ml-10">
+                <p class="text-sm text-white">This website is a product of the project “Young Journalists’ Network”
                     implemented by Democracy Lab. This project was funded through a U.S. Embassy grant. The opinions,
                     findings, and conclusions or recommendations expressed herein are those of the implementers/authors
                     and do not necessarily reflect those of the U.S. Government.</p>
@@ -253,9 +253,9 @@
 
 
     <div class="bg-blue-900">
-        <div class="flex py-5 text-white ml-10 md:ml-20">
+        <div class="flex py-5 ml-10 text-white md:ml-20">
             <h1>© Copyright 2020 - Made with ♥ from <a
-                    class="font-bold pb-2 border-b-2 border-transparent hover:border-yellow-500 " href="#">Lucky
+                    class="pb-2 font-bold border-b-2 border-transparent hover:border-yellow-500 " href="#">Lucky
                     Media</a></h1>
         </div>
     </div>
